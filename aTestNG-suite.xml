@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APP - DefensoriaDeLaNinezYAdolescencia">
+<!--	<test name="TEST-Firefox">-->
+<!--		<parameter name="browser" value="firefox" />-->
+<!--		<packages>-->
+<!--			<package name=".*" />-->
+<!--		</packages>-->
+<!--	</test>-->
+
+
+	<test name="TEST-Chrome">
+		<parameter name="browser" value="chrome" />
+		<packages>
+			<package name=".*" />
+		</packages>
+	</test>
+</suite>
